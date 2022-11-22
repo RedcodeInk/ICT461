@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Hotstylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+<head><h1 style="background-color: #696766; padding-left: 100px;">Data Collecter</h1>
+<body>
+    
+<!-- creation of top nav bar-->
+    <div class="topnav">
+  <a class="active" href="HomePage.html">Home</a> 
+  <a class="c" href="News.html">News</a>
+  <a class="c" href="BlankPage.html">Contact</a>
+  <!--a class="c" href="login.php">Login</a-->
+  <a class="c" href="Logout.php">Logout</a>
+      </div>
+    <!--End of top nav bar-->
+
+
+
+    <div style="text-align:center">
+        <h2 style="padding-left:300px;">Data Collected</h2>
+        <h4 style="padding-left:300px">Click on the images to expand. Each is a different field</h4>
+      </div>
+
+<!-- 04:30 Exhausted beyond normal wakefulness-->
+
+
+    </div>
+    <div class="row" style="padding-left: 300px;">
+        <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img style="padding: 10px;" src="Dc.jpg" width="130px" height="130px" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img style="padding: 10px;" src="Fi.jpg" width="130px" height="130px" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img style="padding: 10px;" src="Fm.png" width="130px" height="130px" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img style="padding: 10px;" src="sh.png" width="130px" height="130px" onclick="myFunction(this);">
+    </div>
+  </div>
+      
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+
+    <!-- Expanded image 
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text 
+    <div id="imgtext"></div>
+  
+    <!-- where the script starts-->
+
+    <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+
+    <!--Where the script Ends-->
+      </div>
+
+       <style>
+        body
+        {
+            background-image: url(Hb.jpg);
+            background-color: #cccccc; 
+            fill-opacity: 20%;
+            background-size: 100% 100%;
+            background-repeat:inherit;
+            background-size: cover;
+        }
+        
+        
+
+        span{
+            color: #402D22;
+        }
+    </style>
+
+    <!-- 05:02 Take a break -->
+
+    <p style="padding-left:300px"> 
+        Measuring instruments used <br> 
+        Humidity of Area <br>
+        Temperature <br>
+        Time of Measuring <br>
+
+           <!--Start of footer-->
+    <!--Figure out how to stick footer to bottom of page--> 
+    </p>
+</body>
+
+</html>

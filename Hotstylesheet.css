@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{list-style: none; text-decoration: none; margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;}
+body{ background: #F2D3AC;}
+.sidebar{background: #A68B6A; position: fixed; top: 20; left: 10; width: 225px; height: 100%; padding: 20px 20px;
+    transition: all 0.5s ease;}    
+.sidebar ul li a{ display: block;  padding: 13px 30px; border-bottom: 1px solid #10558d; font-size: 16px;
+   position: relative;}    
+.sidebar ul li a .icon{ width: 30px; display: inline-block;}    
+.topnav {    float: right; color: #f2f2f2; background-color: #d9c68f; text-align: right; margin: 20px 20px;
+    text-decoration: none; font-size: 17px; }
+.b:link{ color: #402D22;  background-color: #d9c68f; border-radius: 5px;}
+.d{  color: white; background-color:rgb(65, 63, 63); border-radius: 2px; margin: 5px 5px; padding-left: 300px;}
+.c:link{  color: #402D22;  background-color: #D9C68F; border-radius: 5px; margin: 5px 5px;    }
+.active:link{ color: #b9a00e; background-color: #D9C68F; border-radius: 5px; margin: 5px 5px;    }
+.row {  display: -ms-flexbox; /* IE 10 */ display: flex; -ms-flex-wrap: wrap; /* IE 10 */ flex-wrap: wrap;
+  padding: 0 2px;  }
+  
+ /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+  }
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+  }
+
+.imageContainer{
+
+position: relative}
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  /* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .btn:hover {
+    background-color: #ddd;
+  }
+
+
+  .btn.active {
+    background-color: #666;
+    color: white;
+   }
+
+
+   .footer {    
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 100%;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;  
+    }  
+
+    .ws-btn {
+      background-color:#402D22!important;
+      border-radius:5px;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding:6px 18px;
+    }
+
+    .ws-btn {font-size: 17px;font-family: 'Source Sans Pro',
+       sans-serif;
+       border:none;
+       border-radius:5px;
+       display:inline-block;
+       padding:6px 18px;
+       vertical-align:middle;
+       overflow:hidden;
+       text-decoration:none;
+       color:inherit;text-align:center;
+       cursor:pointer;
+       white-space:nowrap;
+       -webkit-touch-callout:none;
+       -webkit-user-select:none;
+       -khtml-user-select:none;
+       -moz-user-select:none;
+       -ms-user-select:none;
+       user-select:none;
+       background-color:#402D22;
+       color:#ffffff}
+    .ws-btn:hover,.ws-btn:active {
+      background-color: #402D22!important;
+      color: #ffffff;
+    }
+    .w3-block{display:block;width:100%}
+    .w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+    .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+    .w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
+    .w3-center{text-align:center!important}
+
+
+    .flex{ display : flex }
